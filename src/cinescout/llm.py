@@ -3,7 +3,6 @@ import ollama
 MODEL = "qwen2.5:7b"
 
 
-# src/cinescout/llm.py
 def ask(question: str) -> str:
 
     response = ollama.chat(
